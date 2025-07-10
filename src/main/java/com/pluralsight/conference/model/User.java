@@ -1,10 +1,8 @@
 package com.pluralsight.conference.model;
 
-import jakarta.validation.constraints.NotEmpty;
+public class User {
 
-public class Registration {
-
-    @NotEmpty
+    private long id;
     private String name;
 
     public String getName() {
@@ -13,5 +11,13 @@ public class Registration {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public long getId() {
+        return id;
+    }
+
+    public void setId(long id) {
+        this.id = id;
     }
 }
