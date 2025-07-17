@@ -20,7 +20,7 @@
             </style>
     </head>
     <body>
-        <h1>Registration</h1>
+        <h1><spring:message code="title" /></h1>
         <form:form modelAttribute="registration">
         <form:errors path="*" cssClass="errorblock" element="div"/>
             <table>
@@ -37,7 +37,7 @@
                 </tr>
                 <tr>
                     <td colspan="2">
-                        <input type="submit" value="Add Registration">
+                        <input type="submit" value="<spring:message code="save.changes" />">
                     </td>
                 </tr>
             </table>
