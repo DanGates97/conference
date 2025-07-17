@@ -1,4 +1,4 @@
-A Spring Java web application created with the Spring Initializer.  The application uses the MVC pattern to serve up a jsp page as well as an API to enable a React front end to consume the user data.
+A Spring Java web application created with the Spring Initializer.  The application uses the MVC pattern to serve up a jsp page as well as an API to enable a React front end to consume the user data.  To start the application run ConferenceApplication.
 
 The Registration Controller serves up an jsp page which takes a name entered by the user and prints it out to the console.  The page also has validation making the name mandatory.  In addition, I18N has been added to support a Spanish translation by the addition of the "?lang=es" query string.
 http://localhost:8080/registration
